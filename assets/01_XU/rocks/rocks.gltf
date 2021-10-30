@@ -1,0 +1,219 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 768,
+      "type": "VEC3",
+      "max": [
+        1.7937140464782715,
+        3.1431369781494141,
+        2.0737640857696533
+      ],
+      "min": [
+        -1.5147019624710083,
+        0.0003389999910723418,
+        -0.80355298519134521
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 768,
+      "type": "VEC3",
+      "max": [
+        0.92219299077987671,
+        0.97266972064971924,
+        0.92219299077987671
+      ],
+      "min": [
+        -0.92219299077987671,
+        -0.97266972064971924,
+        -0.92219299077987671
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 768,
+      "type": "VEC4",
+      "max": [
+        0.99999988079071045,
+        0.80789047479629517,
+        0.99994683265686035,
+        -1.0
+      ],
+      "min": [
+        -0.99965119361877441,
+        -0.965437114238739,
+        -0.99999582767486572,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 768,
+      "type": "VEC2",
+      "max": [
+        0.30738100409507751,
+        0.98868298530578613
+      ],
+      "min": [
+        0.020045999437570572,
+        0.73323601484298706
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 1152,
+      "type": "SCALAR",
+      "max": [
+        767.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "rocks.bin",
+      "byteLength": 41472
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9216,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18432,
+      "byteLength": 12288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30720,
+      "byteLength": 6144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36864,
+      "byteLength": 4608
+    }
+  ],
+  "images": [
+    {
+      "uri": "Colorsheet Rock Green.jpg",
+      "name": "Colorsheet Rock Green"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Green"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "default"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.0150000006,
+        0.0150000006,
+        0.0150000006
+      ],
+      "translation": [
+        0.09214862,
+        0.0,
+        0.0326
+      ],
+      "name": "rocks"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -0.493566781,
+        0.0,
+        -0.8697079
+      ],
+      "translation": [
+        -3.61,
+        0.0,
+        5.83
+      ],
+      "name": "default"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9984,
+      "WrapS": 33071,
+      "WrapT": 33071
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "rocks"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Colorsheet Rock Green"
+    }
+  ]
+}
