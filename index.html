@@ -11,7 +11,7 @@
 
 <body style="margin : 0px; overflow: hidden;">
 
-  <a-scene shadow="type: pcfsoft" stats embedded arjs=" detectionMode: mono_and_matrix; matrixCodeType: 3x3; trackingMethod: best; sourceType: webcam; debugUIEnabled: false;
+  <a-scene shadow="type: basic" stats embedded arjs=" detectionMode: mono_and_matrix; matrixCodeType: 3x3; trackingMethod: best; sourceType: webcam; debugUIEnabled: false;
     sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;"
     renderer="logarithmicDepthBuffer: true;" vr-mode-ui="enabled: false" gesture-detector id="scene">
 
@@ -20,15 +20,15 @@
 
     <!-- Light Settings -->
 
-    <a-entity position="0 0 0" particle-system="preset: dust" size="100" particleCount="8000"></a-entity>
-    <a-entity
-      light="type: directional; color: #EEE; castShadow: true; intensity: 2.0; shadowCameraNear: 0.5 ; shadowCameraFar:5000; shadowCameraVisible: true "
-      position="-1 1.4 0.2"></a-entity>
     <a-entity light="type: ambient; color: #FFF; intensity: 0.5"></a-entity>
 
 
     <!-- STUDENT 01 _ XU ___ BARCODE 0 -->
     <a-marker type='barcode' value='0'>
+
+      <a-entity
+        light="type: directional; color: #EEE; castShadow: true; intensity: 0.8; shadowCameraNear: 0.5 ; shadowCameraVisible: true "
+        position="-1 1 0"></a-entity>
 
       <a-entity position="0 0 0" particle-system="preset: dust" size="1.5" particleCount="2000"></a-entity>
 
@@ -53,6 +53,9 @@
 
     <!--STUDENT 02 _ LALIE __ BARCODE 1  -->
     <a-marker type='barcode' value='1'>
+      <a-entity
+        light="type: directional; color: #EEE; castShadow: true; intensity: 0.8; shadowCameraNear: 0.5 ; shadowCameraVisible: true "
+        position="-1 1 0"></a-entity>
 
       <a-entity position="0 0 0" particle-system="preset: dust" size="1.5" particleCount="2000"></a-entity>
 
@@ -79,6 +82,9 @@
 
     <!--STUDENT 03 _ DOMINIK VOGEL__ BARCODE 2 -->
     <a-marker type='barcode' value='2'>
+      <a-entity
+      light="type: directional; color: #EEE; castShadow: true; intensity: 0.8; shadowCameraNear: 0.5 ; shadowCameraVisible: true "
+      position="-1 1 0"></a-entity>
 
       <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
@@ -278,22 +284,22 @@
 
       <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files01/main/12_SarahBradila/3dmodel/3dmodel.gltf">
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files03/main/12_SarahBradila/3dmodel/3dmodel.gltf">
       </a-entity>
 
       <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files01/main/12_SarahBradila/People/People.gltf">
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files03/main/12_SarahBradila/People/People.gltf">
       </a-entity>
 
       <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files01/main/12_SarahBradila/environment/environment.gltf">
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files03/main/12_SarahBradila/environment/environment.gltf">
       </a-entity>
 
       <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files01/main/12_SarahBradila/Plane/Plane.gltf">
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files03/main/12_SarahBradila/Plane/Plane.gltf">
       </a-entity>
     </a-marker>
 
@@ -302,17 +308,17 @@
 
       <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files01/main/13_LarsLanghans/3dmodel/3dmodel.gltf">
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files03/main/13_LarsLanghans/3dmodel/3dmodel.gltf">
       </a-entity>
 
       <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files01/main/13_LarsLanghans/environment/environment.gltf">
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files03/main/13_LarsLanghans/environment/environment.gltf">
       </a-entity>
 
       <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files01/main/13_LarsLanghans/plane/plane.gltf">
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/files03/main/13_LarsLanghans/plane/plane.gltf">
       </a-entity>
     </a-marker>
 
