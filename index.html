@@ -20,7 +20,7 @@
 
     <!-- Light Settings -->
 
-    <a-entity position="0 2.25 -15" particle-system="preset: dust" size="100" particleCount="8000"></a-entity>
+    <a-entity position="0 0 0" particle-system="preset: dust" size="100" particleCount="8000"></a-entity>
     <a-entity
       light="type: directional; color: #EEE; castShadow: true; intensity: 2.0; shadowCameraNear: 0.5 ; shadowCameraFar:500; shadowCameraVisible: true "
       position="-1 1.4 0.2"></a-entity>
@@ -29,6 +29,8 @@
 
     <!-- STUDENT 01 _ XU ___ BARCODE 0 -->
     <a-marker type='barcode' value='0'>
+
+      <a-entity position="0 0 0" particle-system="preset: dust" size="1.5" particleCount="2000"></a-entity>
 
       <a-entity position="0 0 0" scale="9.0 9.0 9.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
@@ -52,6 +54,8 @@
     <!--STUDENT 02 _ LALIE __ BARCODE 1  -->
     <a-marker type='barcode' value='1'>
 
+      <a-entity position="0 0 0" particle-system="preset: dust" size="1.5" particleCount="2000"></a-entity>
+      
       <a-entity position="0 0 0" scale="12.0 12.0 12.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
         animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
         gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/augmentedrealities.github.io/main/assets/02_Lalie/model/model.gltf">
