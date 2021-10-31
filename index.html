@@ -15,10 +15,12 @@
     sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;"
     renderer="logarithmicDepthBuffer: true;" vr-mode-ui="enabled: false" gesture-detector id="scene">
 
+    <!-- Add Text -->
+    <a-entity text="value: Use Landscape Orientation;"></a-entity>
 
     <!-- Light Settings -->
 
-    <!-- <a-entity position="0 2.25 -15" particle-system="preset: dust" size="100" particleCount="8000"></a-entity> -->
+    <a-entity position="0 2.25 -15" particle-system="preset: dust" size="100" particleCount="8000"></a-entity>
     <a-entity
       light="type: directional; color: #EEE; castShadow: true; intensity: 1.7; shadowCameraNear: 5 ; shadowCameraFar:500  ;shadowCameraVisible: true "
       position="-1 1.4 0.2"></a-entity>
@@ -106,7 +108,7 @@
 
     </a-marker>
 
-    
+
     <!--STUDENT 04 __ JOS AUF DER MAUR -->
     <a-marker type='barcode' value='3'>
 
@@ -132,28 +134,28 @@
 
     </a-marker>
 
-      <!--STUDENT 06 __Maximilian Pixner-->
-      <a-marker type='barcode' value='5'>
+    <!--STUDENT 06 __Maximilian Pixner-->
+    <a-marker type='barcode' value='5'>
 
-        <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
-          animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-          gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/augmentedrealities.github.io/main/assets/06_MaximilianPixner/environment/environment.gltf">
-        </a-entity>
-  
-        <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
-          animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-          gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/augmentedrealities.github.io/main/assets/06_MaximilianPixner/terrainmesh/terrainmesh.gltf">
-        </a-entity>
-  
-        <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
-          animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
-          gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/augmentedrealities.github.io/main/assets/06_MaximilianPixner/3dmodel/3dmodel.gltf">
-        </a-entity>
-  
-      </a-marker>
+      <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
+        animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/augmentedrealities.github.io/main/assets/06_MaximilianPixner/environment/environment.gltf">
+      </a-entity>
+
+      <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
+        animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/augmentedrealities.github.io/main/assets/06_MaximilianPixner/terrainmesh/terrainmesh.gltf">
+      </a-entity>
+
+      <a-entity position="0 0 0" scale="6.0 6.0 6.0" class="clickable" gesture-handler="minScale: 0.1; maxScale:5.0"
+        animation-mixer="loop:repeat" shadow="cast:true" shadow="receive:true"
+        gltf-model="https://whispering-island-99528.herokuapp.com/https://raw.githubusercontent.com/AugmentedRealities/augmentedrealities.github.io/main/assets/06_MaximilianPixner/3dmodel/3dmodel.gltf">
+      </a-entity>
+
+    </a-marker>
 
 
-      
+
 
     <a-entity camera></a-entity>
 
